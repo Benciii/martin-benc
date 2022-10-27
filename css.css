@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav {
+    background-color: rgb(47, 79, 79);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+ul li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+.logo a {
+    color: white;
+    font-size: 3rem;
+    padding-left: 15px;
+}
+
+.hover1:hover,
+.hover1:active {
+    color: orange;
+    transition: .4s;
+    cursor: pointer;
+}
+.background-image {
+    background-image: url(../img/foto1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+}
+#menubtn {
+    border: 2px solid transparent;
+    border-color: white;
+    border-radius: 100px;
+    padding: 5px 15px;
+    font-size: 20px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    transition: .4s;
+}
+#menubtn:hover {
+    background-color: orange;
+    color: white;
+    border: 2px solid orange ;
+    cursor: pointer;
+}
+.background-image p  {
+    margin: 0%;
+    text-align: center;
+    padding-top: 40vh;
+    color: white;
+    font-size: 4rem;
+}
+.menu {
+    margin: 0 auto;
+    text-align: center;
+}
+#menulistok {
+    width: 70%;
+}
+.openhours {
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.openhours p:first-child {
+    border-bottom: 1px solid white;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.kontakt {
+    display: grid;
+}
+.kontakt a {
+    text-decoration: underline;
+}
+.adress p:first-child {
+    font-size: 20px;
+}
+.kontakt p {
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: black;
+}
+ .copyrightfooter {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid darkslategray;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0px 20px 0px;
+ }
+#mail {
+    color: orange;
+    font-size: 1rem;
+ }
+
+ #tel {
+    color: orange;
+    font-size: 1rem;
+ }
+ span {
+    color: orange;
+ }
+
+ @media screen and (max-width: 500px) {
+    footer {
+        display: block;
+        text-align: center;
+    }
+    #mail, #tel {
+        padding-top: 10px;
+    }
+    #menulistok {
+        width: 100%;
+    }
+    ul { 
+        padding-left: 0;
+    }
+    .hover1 {
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+}
