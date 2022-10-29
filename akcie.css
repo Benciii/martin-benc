@@ -75,6 +75,7 @@ footer {
     border-bottom: 1px solid black;
     width: 80%;
     margin: 0 auto;
+    padding-top: 30px;
 }
 .groupbtn1 {
     border-bottom: 2px solid orange;
@@ -86,9 +87,13 @@ footer {
     border-bottom: 1px solid black;
     margin: 0 auto;
     text-align: center;
+    padding-top: 30px;
 }
 .groupbtn01 {
     padding: 0;
+}
+.groupbtn02 p {
+    margin-bottom: 40px;
 }
 h4 {
     text-transform: uppercase;
@@ -104,9 +109,6 @@ h4 {
     }
     ul {
         padding-left: 0;
-    }
-    .hover1 {
-        border-bottom: 1px solid rgb(255, 255, 255);
     }
     .groupbtn1 {
         margin: 10px 50px;
